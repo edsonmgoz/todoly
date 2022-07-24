@@ -4,7 +4,7 @@ Feature: Signup
 
     Given Acceder a "http://todo.ly/"
     When yo quiero crear una nueva cuenta
-      | fullname | Edson3               |
+      | fullname | Edson                       |
       | email    | edsonmgoz[random]@gmail.com |
-      | password | helloween            |
+      | password | helloween                   |
     Then yo deberia acceder a la web
